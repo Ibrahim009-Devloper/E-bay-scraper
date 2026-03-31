@@ -2,3 +2,4 @@ seleniumbase
 playwright
 concurrently
 pandas
+openpyxl
