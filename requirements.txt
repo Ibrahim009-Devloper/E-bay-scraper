@@ -1,0 +1,4 @@
+seleniumbase
+python
+playwright
+concurrent.futures
