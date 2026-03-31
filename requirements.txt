@@ -1,4 +1,3 @@
 seleniumbase
-python
 playwright
-concurrent.futures
+concurrently
