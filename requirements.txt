@@ -1,3 +1,4 @@
 seleniumbase
 playwright
 concurrently
+pandas
