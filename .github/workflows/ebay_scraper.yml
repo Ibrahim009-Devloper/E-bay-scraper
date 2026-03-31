@@ -31,12 +31,13 @@ jobs:
 
     - name: Run Scraper Pipeline with Virtual Screen
       # xvfb-run ensures a virtual display is available for the browser
-      run: xvfb-run python Ebay_product_scraper/Ebay_product_scraper
+      run: xvfb-run python Ebay_product_scraper/Ebay_product_scraper.py
+
       env:
         PYTHONPATH: .
 
     - name: Upload Scraped Data
       uses: actions/upload-artifact@v4
       with:
-        name: amazon-scraped-data
-        path: Data/export_data/
+        name: Ebay_scrape_data
+        path: Row_data/
